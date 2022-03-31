@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 3.0 (quilt)
+Source: open-ath9k-htc-firmware
+Binary: firmware-ath9k-htc, firmware-ath9k-htc-dbgsym
+Architecture: all
+Version: 1.4.0-97-g75b3e59+dfsg-3
+Maintainer: Oleksij Rempel <linux@rempel-privat.de>
+Uploaders:  Paul Fertser <fercerpav@gmail.com>,
+Homepage: https://github.com/qca/open-ath9k-htc-firmware
+Standards-Version: 4.2.1
+Vcs-Browser: https://github.com/olerem/firmware-ath9k-htc
+Vcs-Git: https://github.com/olerem/firmware-ath9k-htc
+Build-Depends: binutils-source, bison, cmake, debhelper (>= 10), flex, gcc-8-source, libmpc-dev
+Package-List:
+ firmware-ath9k-htc deb misc optional arch=all
+ firmware-ath9k-htc-dbgsym deb debug optional arch=all
+Checksums-Sha1:
+ e7f90e579a18a042c065e712fe99f74477265aa2 399618 open-ath9k-htc-firmware_1.4.0-97-g75b3e59+dfsg.orig.tar.gz
+ 3cebe97254548ca967aae7dd3b8ddfef99f5af11 7544 open-ath9k-htc-firmware_1.4.0-97-g75b3e59+dfsg-3.debian.tar.xz
+Checksums-Sha256:
+ 676fc3cbdc6995ff8645a9e206b042736ad9957352590adc74b9da6b82332e71 399618 open-ath9k-htc-firmware_1.4.0-97-g75b3e59+dfsg.orig.tar.gz
+ 8d214d3d08de7cbfb0acc78c9ba28c3bd7345aba53b135bb5f5d1de054f7c5b0 7544 open-ath9k-htc-firmware_1.4.0-97-g75b3e59+dfsg-3.debian.tar.xz
+Files:
+ 14ad4f55e65fb361979542b4fb497667 399618 open-ath9k-htc-firmware_1.4.0-97-g75b3e59+dfsg.orig.tar.gz
+ f2c9fc29eaa163128c0942782e37c247 7544 open-ath9k-htc-firmware_1.4.0-97-g75b3e59+dfsg-3.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEYQsotVz8/kXqG1Y7MRa6Xp/6aaMFAlwc+b4ACgkQMRa6Xp/6
+aaMPTRAAlvih4Gs8d5qKI4kkXyg8XLP2EJ8EQk+hgaIqGYZFJWOfZ9nNb0+wTyY2
+uTDBNJXt5sI1PuSS28CfDH/owF0vJVv88Rz1gZ21g4GO9DkQeWpKB20DHFiyuHIC
+BCzacaz19RykjoJpRIkcW4dC3/xQyIuACtUyfwC4q5sffiGjm1yJcmCdBgtRP2Pa
+fvPGYhgvHgskWthTjwMbtu3mtyvhdfOB0FRIrris5jOXRJEzcKH3q60EbHmBpV1q
+fdH6BTnuI3tcR3UWPd7N7h9boy7xhDHvkSPulILWGF2+klyeWNDCIhld+tS1yEvS
+dOF2Xzv6QjvxfUcEX7dVZURFZxVQcUfCnn36RG2WTGjLg7rlRweKkuBwhFVIVqys
+JF5axamyMwGD2XX3COOE/mgCRTxjgI7zPotSW1zOdISDcfysDx9oAw0pk9rAkaEA
+zvdRDsWdlrpBBsfXy4vRmIy+TRadYa/A77EjMqXmDrnvDdpUhV614oypWGiB6eSO
+fa1vbTxke3La+vYsj+0FD2oLO6+hNxcYQz8Z+XalqNqu+bVdvwuvRhWi+pfaXB3l
+Ak8f+a405Vtp/J4vHRTofn4vjF2DyXDqPddqNFu+VigOldfJ0kaMpDlDT8nBYyaO
+dJtnYOQAQYQwjFMWLzBSMs73C5KkPiknRyGrV6ssFaJEQzoXwmA=
+=PEHt
+-----END PGP SIGNATURE-----

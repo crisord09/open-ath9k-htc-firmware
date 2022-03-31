@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 3.0 (quilt)
+Source: open-ath9k-htc-firmware
+Binary: firmware-ath9k-htc
+Architecture: all
+Version: 1.4.0-106-gc583009+dfsg1-1
+Maintainer: John Scott <jscott@posteo.net>
+Homepage: https://github.com/qca/open-ath9k-htc-firmware
+Standards-Version: 4.1.2
+Build-Depends: binutils-source (>= 2.34), bison, cmake, debhelper-compat (= 13), flex, gcc-10-source, libmpc-dev, zlib1g-dev
+Package-List:
+ firmware-ath9k-htc deb kernel optional arch=all
+Checksums-Sha1:
+ 61a00d8cfa05b32d0c999a24afb509dd5ffb2ab5 291292 open-ath9k-htc-firmware_1.4.0-106-gc583009+dfsg1.orig.tar.xz
+ d5adacd33d895ed67d7cfc98c1ee06f12e66e577 8460 open-ath9k-htc-firmware_1.4.0-106-gc583009+dfsg1-1.debian.tar.xz
+Checksums-Sha256:
+ 49abc8fc905e0a73d275004a4ab424b70336b8615f10dc55a9fb4de5291a932e 291292 open-ath9k-htc-firmware_1.4.0-106-gc583009+dfsg1.orig.tar.xz
+ dd6c771ac60c26941abfaeacbfa8c815ca17dd2c0bcf2cd5fadd21d2bc94ea96 8460 open-ath9k-htc-firmware_1.4.0-106-gc583009+dfsg1-1.debian.tar.xz
+Files:
+ 5a46341cb17c28c1ed49e1a1fec2c563 291292 open-ath9k-htc-firmware_1.4.0-106-gc583009+dfsg1.orig.tar.xz
+ 62530608734eb618a776c3d0cfbfa609 8460 open-ath9k-htc-firmware_1.4.0-106-gc583009+dfsg1-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEYQsotVz8/kXqG1Y7MRa6Xp/6aaMFAl/nubEACgkQMRa6Xp/6
+aaMs1w//eESyWqzdlY0R3Jk5svR0ZW6MBFrNTPy+dDxs8jOqPSazpz3w/jbiX2nQ
+g97FJGVZTK5FYAlTqNStBPAOXDuBmYxtaMdbmyOXWiWwKkiQkLyDQ/nCfNr7odtt
+GXYtoLG9yPxDrrezqSpwWigbV5RO4dqa2T+u8LcaFNEwuToU3Gn7YzY4xQQLH5d5
+zKfE6obiupI5zPoxa+FAXlrhnYGOZbwB9kR9sEVc02UHgawunt5gjqNGPI2Bxe9o
+Vrm60liVrUsUOx7XbIKBlwQ9zgQIWVaUZqxCv/D6rYe0PiXnONf4Bbqf0eyXhXqB
+wFdPKWCadfGC0TBR0QCCDE4L6lAffqKDjXjMbDUtdvUgRCYJ9ZzWl0YJQz+rgQyf
+4Uw19/r/2YytKtvyGGdDVHiJbNSarHuSkMvREUcn4+yTj0EnYUjSYxz5HMUI22Ut
+ZsDSwuD9boDv5JFgCz+PQsljh7ZyLMuT6Ozc2ZzQC/DAY4ZVNDIlKjPCOfyqYRd3
+Apz00r7wF1hdNS6JACIc365o7gMenk/wC5/K/s9vwWHrx/PBZf5a2RXSPcmztKPC
+cyOMgyuKmiFw6FzczezHLMyauzcWeW7C7AhXtVZp+AV3NnovdBI+w6WzOuHUGLbL
+kQbRr2/NexQnBXMzzCPE6ppp//1hr2ijF2xQ0hNBX9MjlHroV+A=
+=iIX9
+-----END PGP SIGNATURE-----
